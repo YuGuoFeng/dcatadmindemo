@@ -30,6 +30,7 @@ class ComposerStaticInit2f57bd16084b2f7bdb06168eed0619d0
         'c7a3c339e7e14b60e06a2d7fcce9476b' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/Events/functions.php',
         'f0906e6318348a765ffb6eb24e0d0938' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/Foundation/helpers.php',
         '58571171fd5812e6e447dce228f52f4d' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/Support/helpers.php',
+        '7ece84f8d760bb97f06d5cbabfa626dc' => __DIR__ . '/..' . '/jiannei/helpers/src/helpers.php',
         '8825ede83f2f289127722d4e842cf7e8' => __DIR__ . '/..' . '/symfony/polyfill-intl-grapheme/bootstrap.php',
         '9cdd7b9056abc3081735233ba9dd9c7f' => __DIR__ . '/..' . '/facade/flare-client-php/src/helpers.php',
         '6124b4c8570aa390c21fafd04a26c69f' => __DIR__ . '/..' . '/myclabs/deep-copy/src/DeepCopy/deep_copy.php',
@@ -124,6 +125,11 @@ class ComposerStaticInit2f57bd16084b2f7bdb06168eed0619d0
             'League\\CommonMark\\' => 18,
             'Laravel\\Tinker\\' => 15,
             'Laravel\\Sail\\' => 13,
+        ),
+        'J' => 
+        array (
+            'Jiannei\\Response\\Laravel\\' => 25,
+            'Jiannei\\Enum\\Laravel\\' => 21,
         ),
         'I' => 
         array (
@@ -392,6 +398,14 @@ class ComposerStaticInit2f57bd16084b2f7bdb06168eed0619d0
         'Laravel\\Sail\\' => 
         array (
             0 => __DIR__ . '/..' . '/laravel/sail/src',
+        ),
+        'Jiannei\\Response\\Laravel\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/jiannei/laravel-response/src',
+        ),
+        'Jiannei\\Enum\\Laravel\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/jiannei/laravel-enum/src',
         ),
         'Illuminate\\Support\\' => 
         array (
@@ -3014,6 +3028,32 @@ class ComposerStaticInit2f57bd16084b2f7bdb06168eed0619d0
         'Illuminate\\View\\ViewFinderInterface' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/View/ViewFinderInterface.php',
         'Illuminate\\View\\ViewName' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/View/ViewName.php',
         'Illuminate\\View\\ViewServiceProvider' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/View/ViewServiceProvider.php',
+        'Jiannei\\Enum\\Laravel\\Contracts\\EnumContract' => __DIR__ . '/..' . '/jiannei/laravel-enum/src/Contracts/EnumContract.php',
+        'Jiannei\\Enum\\Laravel\\Contracts\\LocalizedEnumContract' => __DIR__ . '/..' . '/jiannei/laravel-enum/src/Contracts/LocalizedEnumContract.php',
+        'Jiannei\\Enum\\Laravel\\Enum' => __DIR__ . '/..' . '/jiannei/laravel-enum/src/Enum.php',
+        'Jiannei\\Enum\\Laravel\\Exceptions\\InvalidEnumKeyException' => __DIR__ . '/..' . '/jiannei/laravel-enum/src/Exceptions/InvalidEnumKeyException.php',
+        'Jiannei\\Enum\\Laravel\\Exceptions\\InvalidEnumValueException' => __DIR__ . '/..' . '/jiannei/laravel-enum/src/Exceptions/InvalidEnumValueException.php',
+        'Jiannei\\Enum\\Laravel\\Exceptions\\InvalidMethodException' => __DIR__ . '/..' . '/jiannei/laravel-enum/src/Exceptions/InvalidMethodException.php',
+        'Jiannei\\Enum\\Laravel\\FlaggedEnum' => __DIR__ . '/..' . '/jiannei/laravel-enum/src/FlaggedEnum.php',
+        'Jiannei\\Enum\\Laravel\\Http\\Middleware\\TransformEnums' => __DIR__ . '/..' . '/jiannei/laravel-enum/src/Http/Middleware/TransformEnums.php',
+        'Jiannei\\Enum\\Laravel\\Http\\Requests\\EnumRequest' => __DIR__ . '/..' . '/jiannei/laravel-enum/src/Http/Requests/EnumRequest.php',
+        'Jiannei\\Enum\\Laravel\\Http\\Requests\\Rules\\Enum' => __DIR__ . '/..' . '/jiannei/laravel-enum/src/Http/Requests/Rules/Enum.php',
+        'Jiannei\\Enum\\Laravel\\Http\\Requests\\Rules\\EnumKey' => __DIR__ . '/..' . '/jiannei/laravel-enum/src/Http/Requests/Rules/EnumKey.php',
+        'Jiannei\\Enum\\Laravel\\Http\\Requests\\Rules\\EnumValue' => __DIR__ . '/..' . '/jiannei/laravel-enum/src/Http/Requests/Rules/EnumValue.php',
+        'Jiannei\\Enum\\Laravel\\Providers\\LaravelServiceProvider' => __DIR__ . '/..' . '/jiannei/laravel-enum/src/Providers/LaravelServiceProvider.php',
+        'Jiannei\\Enum\\Laravel\\Providers\\LumenServiceProvider' => __DIR__ . '/..' . '/jiannei/laravel-enum/src/Providers/LumenServiceProvider.php',
+        'Jiannei\\Enum\\Laravel\\Repositories\\Cast\\EnumCast' => __DIR__ . '/..' . '/jiannei/laravel-enum/src/Repositories/Cast/EnumCast.php',
+        'Jiannei\\Enum\\Laravel\\Repositories\\Enums\\CacheEnum' => __DIR__ . '/..' . '/jiannei/laravel-enum/src/Repositories/Enums/CacheEnum.php',
+        'Jiannei\\Enum\\Laravel\\Repositories\\Enums\\HttpStatusCodeEnum' => __DIR__ . '/..' . '/jiannei/laravel-enum/src/Repositories/Enums/HttpStatusCodeEnum.php',
+        'Jiannei\\Enum\\Laravel\\Repositories\\Enums\\LogEnum' => __DIR__ . '/..' . '/jiannei/laravel-enum/src/Repositories/Enums/LogEnum.php',
+        'Jiannei\\Response\\Laravel\\Http\\Middleware\\Etag' => __DIR__ . '/..' . '/jiannei/laravel-response/src/Http/Middleware/Etag.php',
+        'Jiannei\\Response\\Laravel\\Http\\Middleware\\ThrottleRequests' => __DIR__ . '/..' . '/jiannei/laravel-response/src/Http/Middleware/ThrottleRequests.php',
+        'Jiannei\\Response\\Laravel\\Providers\\LaravelServiceProvider' => __DIR__ . '/..' . '/jiannei/laravel-response/src/Providers/LaravelServiceProvider.php',
+        'Jiannei\\Response\\Laravel\\Providers\\LumenServiceProvider' => __DIR__ . '/..' . '/jiannei/laravel-response/src/Providers/LumenServiceProvider.php',
+        'Jiannei\\Response\\Laravel\\Response' => __DIR__ . '/..' . '/jiannei/laravel-response/src/Response.php',
+        'Jiannei\\Response\\Laravel\\Support\\Facades\\Response' => __DIR__ . '/..' . '/jiannei/laravel-response/src/Support/Facades/Response.php',
+        'Jiannei\\Response\\Laravel\\Support\\Serializers\\ArraySerializer' => __DIR__ . '/..' . '/jiannei/laravel-response/src/Support/Serializers/ArraySerializer.php',
+        'Jiannei\\Response\\Laravel\\Support\\Traits\\ExceptionTrait' => __DIR__ . '/..' . '/jiannei/laravel-response/src/Support/Traits/ExceptionTrait.php',
         'JsonException' => __DIR__ . '/..' . '/symfony/polyfill-php73/Resources/stubs/JsonException.php',
         'Laravel\\Sail\\Console\\InstallCommand' => __DIR__ . '/..' . '/laravel/sail/src/Console/InstallCommand.php',
         'Laravel\\Sail\\Console\\PublishCommand' => __DIR__ . '/..' . '/laravel/sail/src/Console/PublishCommand.php',
